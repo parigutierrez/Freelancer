@@ -1,3 +1,113 @@
 /*
  * Estilos de tu proyecto
  */
+body{
+font-family: 'Lato', sans-serif;
+}
+nav{
+   background-color: #2C3E50;
+   padding-top:25px;
+   padding-bottom:25px;
+ }
+
+ #maincontent{
+   background-color: #18BC9C;
+   padding-top:70px;
+   padding-bottom: 80px;
+ }
+
+ a{
+   color:white;
+   text-decoration: none;
+   font-family: 'Montserrat', sans-serif;
+   font-weight: 600;
+ }
+
+.bigText{
+   font-size: 125%;
+   margin-left: 30px;
+
+}
+.smallText{
+   font-size: 70%;
+}
+h1{
+  color:white;
+  font-size: 350%;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+}
+.estrellaBlanca{
+  color:white;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  margin-top: -15px;
+  font-size: 140%;
+}
+.estrellaNegra{
+  color:#2c3e50;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  margin-top: -15px;
+  font-size: 160%;
+}
+#portfolio{
+  padding-top: 100px;
+}
+i{
+  color:#fff;
+  font-size: 140%;
+}
+
+.tamano-imagen{
+  width: 100%;
+}
+
+.texto{
+  color:white;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+}
+.texto2{
+  color:white;
+  font-family: 'Lato', sans-serif;
+}
+.parrafo{
+  color:white;
+  font-family: 'Lato', sans-serif;
+  text-align: inherit;
+  padding: 20px;
+}
+.btn{
+  border-radius: 8px;
+  border: 3px solid white;
+  height: 50px;
+  align-content: right;
+  width: 100;
+  }
+
+#about{
+  background-color: #18BC9C;
+  padding-top:70px;
+  padding-bottom: 80px;
+}
+.fa-download{
+  padding-left: 15px;
+}
+
+#formulario{
+  padding-top: 100px;
+}
+
+.form-control{
+  display:block;
+  width:100%;
+  height: 60px;
+  padding: 6px 12px;
+  line-height: 1.4285;
+  color: #555;
+  border-style: hidden;
+  border-bottom: 2px solid #ccc;
+  margin-left: 220px;
+  font-size: 18px;
+}
